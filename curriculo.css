@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Comic Neue', cursive;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.paragrafo-aumentado{
+    font-size: 22px;
+    padding: 3px;
+}
+
+
+
+header, footer {
+    background: linear-gradient(45deg, rgb(94, 240, 111), rgb(9, 244, 44));
+    background: -webkit-linear-gradient(45deg, rgb(94, 240, 111), rgb(9, 244, 44));
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+header img:hover {
+    border-radius: 60%;
+    border: 3px solid white;
+    transform: scale(1.1);
+}
+
+.section-block {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+}
+
+.section-block:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.section-block a {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.2s ease-in;
+}

@@ -23,6 +23,10 @@ header, footer {
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+header img{
+    border-radius: 50%;
+}
+
 header img:hover {
     border-radius: 60%;
     border: 3px solid white;
@@ -35,7 +39,7 @@ header img:hover {
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 110, 255, 0.807);
+    background-color: rgb(5, 198, 255);
 }
 .section-block:hover {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
